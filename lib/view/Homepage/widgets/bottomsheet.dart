@@ -18,14 +18,13 @@ class _BottomsheetcustomcardState extends State<Bottomsheetcustomcard> {
     return StatefulBuilder(
       builder: (context, bottomsetState) => Container(
         decoration: BoxDecoration(
-            color: Colorconstants.lightgreen,
-            borderRadius: BorderRadius.circular(10)),
+            color: Colors.white, borderRadius: BorderRadius.circular(10)),
         child: Column(children: [
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(10),
             child: TextField(
               decoration: InputDecoration(
-                fillColor: Colors.white,
+                fillColor: Colors.grey,
                 filled: true,
                 label: Text(
                   "Title",
@@ -43,7 +42,7 @@ class _BottomsheetcustomcardState extends State<Bottomsheetcustomcard> {
           TextField(
             maxLines: 3,
             decoration: InputDecoration(
-              fillColor: Colors.white,
+              fillColor: Colors.grey,
               filled: true,
               label: Text(
                 "Description",
@@ -59,7 +58,7 @@ class _BottomsheetcustomcardState extends State<Bottomsheetcustomcard> {
           SizedBox(height: 15),
           TextField(
             decoration: InputDecoration(
-              fillColor: Colors.white,
+              fillColor: Colors.grey,
               filled: true,
               label: Text(
                 "Date",

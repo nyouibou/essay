@@ -17,9 +17,9 @@ class _HomescreenState extends State<Homescreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //backgroundColor: Colorconstants.backgroundColor,
+      backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colorconstants.appbar,
+        backgroundColor: Colors.black,
         title: Text(
           "MeMo",
           style: TextStyle(
@@ -41,7 +41,6 @@ class _HomescreenState extends State<Homescreen> {
               itemCount: 4),
         ),
       ),
-
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           showModalBottomSheet(
